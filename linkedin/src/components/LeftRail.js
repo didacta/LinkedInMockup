@@ -5,6 +5,7 @@ class LeftRail extends Component {
     return(
       <div className="LeftRail">
       <h2> 99 </h2>
+      <h6>Your Connections</h6>
       </div>
     );
   }
