@@ -10,16 +10,16 @@ class App extends Component {
     return (
       <div className="Nav">
         <header className="App-header">
-        <h1 className="App-title">Linked</h1>
+          <h1 className="App-title">Linked</h1>
           <img src={logo} className="App-logo" alt="logo" />
-          
-       
-        <p className="App-intro">
-         
-        </p>
-        </header> <LeftRail />
+
+
+          <p className="App-intro">
+
+          </p>
+        </header><input type="text" placeholder="Search"></input> <LeftRail />
         <CenterRail />
-        <RightRail/>
+        <RightRail />
       </div>
     );
   }
